@@ -1,16 +1,16 @@
 @font-face {
-  font-family: MonstserratLight;
-  src: url("./Fonts/Montserrat/Montserrat-Light.ttf");
+  font-family: robotoLight;
+  src: url("./Fonts/Roboto/Roboto-Light.ttf");
 }
 
 @font-face {
-  font-family: MonstserratBold;
-  src: url("./Fonts/Montserrat/Montserrat-Bold.ttf");
+  font-family: robotoBold;
+  src: url("./Fonts/Roboto/Roboto-Bold.ttf");
 }
 
 @font-face {
-  font-family: Standard;
-  src: url("./Fonts/Montserrat/Montserrat-Regular.ttf");
+  font-family: robotoStandard;
+  src: url("./Fonts/Roboto/Roboto-Regular.ttf");
 }
 
 .img-logo {
@@ -18,7 +18,7 @@
 }
 
 a {
-  font-family: Standard;
+  font-family: robotoStandard;
 }
 
 .carousel-img {
@@ -34,9 +34,26 @@ a {
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 6rem;
   color: #fff;
+  font-family: robotoBold;
 }
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: robotoBold;
+  }
+}
+
+/* @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: robotoBold;
+  }
+} */
 
 .bg-1 {
   background: url("./images/bg_section5.jpg") bottom/cover no-repeat;
@@ -62,5 +79,5 @@ h1 {
     rgba(255, 255, 255, 255)
   );
   z-index: 1;
-  filter: blur(100px);
+  filter: blur(60px);
 }
