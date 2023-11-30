@@ -1,0 +1,13 @@
+@font-face {
+  font-family: MonstserratLight;
+  src: url("./Fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: MonstserratBold;
+  src: url("./Fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+h1 {
+  font-family: MonstserratBold;
+}
