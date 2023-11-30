@@ -8,6 +8,59 @@
   src: url("./Fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
+@font-face {
+  font-family: Standard;
+  src: url("./Fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+.img-logo {
+  width: 200px;
+}
+
+a {
+  font-family: Standard;
+}
+
+.carousel-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.color-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
 h1 {
-  font-family: MonstserratBold;
+  font-size: 10rem;
+  color: #fff;
+}
+
+.bg-1 {
+  background: url("./images/bg_section5.jpg") bottom/cover no-repeat;
+  position: relative;
+}
+
+.bg-2 {
+  background: url("./images/bg_section4.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.bg-1::before,
+.bg-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  width: 100%;
+  background: linear-gradient(
+    rgba(255, 255, 255, 255),
+    rgba(255, 255, 255, 255)
+  );
+  z-index: 1;
+  filter: blur(100px);
 }
