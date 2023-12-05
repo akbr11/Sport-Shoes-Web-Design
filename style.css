@@ -96,3 +96,15 @@ h2 {
   position: relative;
   background-color: #dc3545;
 }
+
+.circle-icon {
+  background: #938005;
+  border-radius: 50%;
+  color: black;
+  display: inline-block;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 50px;
+  margin: 0 auto;
+}
