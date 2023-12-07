@@ -98,13 +98,8 @@ h2 {
 }
 
 .circle-icon {
-  background: #938005;
-  border-radius: 50%;
-  color: black;
   display: inline-block;
-  height: 50px;
-  font-weight: bold;
-  font-size: 1.2em;
-  width: 50px;
-  margin: 0 auto;
+  border-radius: 50px;
+  box-shadow: 0 0 2px #888;
+  padding: 0.5em 0.6em;
 }
